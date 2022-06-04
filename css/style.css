@@ -1,0 +1,57 @@
+.app {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.app-input {
+    border-radius: 3px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid #000;
+}
+
+.app-input::placeholder {
+    font-size: 15px;
+}
+
+.app-input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 0px rgb(157, 163, 163);
+}
+
+.app-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.app-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.app-btn {
+    background-color: rgb(243, 208, 155);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.app-btn:active {
+    box-shadow: 0px 0px 5px 0px rgb(157, 163, 163);
+}
+
+.app-btn-big {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(136, 136, 235);
+    font-size: 24px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.app-btn-big:active {
+    box-shadow: 0px 0px 10px 0px rgb(157, 163, 163);
+}
